@@ -10,7 +10,7 @@ pipeline {
                stage ('Checkout the code')
              {
                 steps {
-                 git branch 'master', url: 'https://github.com/abhishekpadmanabhan/addressbook.git'
+                 git branch 'master', url: 'https://github.com/abhishekpadmanabhan/spring-petclinic.git'
                  }
              }
                 stage ('Code Compile') {
